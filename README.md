@@ -6,10 +6,10 @@ So this meant that if Person A is texting Person B that you have to deliver pizz
 Powered by LangChain, this prototype solution can be reinforced towards automating any kind of conversation. Despite the amazing implications of this solution, it is still too costly for some of us. To bypass that, it is possible to run the LLM models locally and that's something I will be exploring next. For now, check out this solution and let me know what you think.
 
 List of Packages:
-from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI, OpenAI
-from langchain.memory import ConversationBufferMemory
-from langchain.chains.question_answering import load_qa_chain
-import csv
-import json
-from langchain.schema import Document
+/nfrom langchain.prompts import PromptTemplate
+/nfrom langchain_openai import ChatOpenAI, OpenAI
+/nfrom langchain.memory import ConversationBufferMemory
+/nfrom langchain.chains.question_answering import load_qa_chain
+/nimport csv
+/nimport json
+/nfrom langchain.schema import Document
